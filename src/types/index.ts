@@ -1,4 +1,4 @@
-export type keys = 'calories' | 'fat' | 'carbs' | 'protein' | 'name';
+export type keys = 'calories' | 'fat' | 'carbs' | 'protein';
 
 export type Dessert = {
 	[key in keys]: number;

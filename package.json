@@ -27,7 +27,7 @@
     "eject": "react-scripts eject",
     "css": "tachyons src/css/app.css > src/index.css --minify",
     "prestart:server": "tsc server/app.ts --outDir dist --esModuleInterop true",
-    "start:server": "node dist/app.js"
+    "start:server": "node dist/server/app.js"
   },
   "eslintConfig": {
     "extends": [
